@@ -77,25 +77,27 @@ content {
 	margin: -10px;
 }
 
-content > div {
+div {
 	min-width: 280px;
 	max-width: 350px;
+	margin: 0 auto;
+}
+
+content > div {
 	margin: 10px;
 }
 
 p {	
 	text-align: justify;
+}
+
+content > div > p {
 	text-indent: 1em;
 }
 
-img {
-	max-width: 100%;
+div > img {
+	width: 100%;
 	height: auto;
-	width: auto\9; /* for ie8 support */
-}
-
-ol {
-	font-weight: bold;
 }
 
 li {
@@ -104,6 +106,7 @@ li {
 
 footer {
 	flex-wrap: wrap;
+	margin-top: 10px;
 	padding: 5px;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -114,8 +117,25 @@ footer {
 	font-size: 10px;
 }
 
+hr {
+	width: 100%;
+	height: 0;
+	margin: 0 10px;
+}
+
+red {
+	display: inline;
+	color: red;
+	font-family: "Arial Black";
+}
+
+.bold {
+	font-weight: bold;
+}
+
 a {
 	color:blue;
+	font-weight: bold;
 }
 
 a:link, a:active, a:visited {
