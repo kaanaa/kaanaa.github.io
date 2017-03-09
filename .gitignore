@@ -1,2 +1,6 @@
 Thumbs.db
 desktop.ini
+
+# some tools that don't need to be in the repo
+*.py
+resources/*/*.txt
